@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  min-height: 10vh;
+  background-color: maroon;
+  font-family: cursive;
+  /* background-color: black; */
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+nav a:hover {
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: transparent !important;
+  padding: 0;
+}
+
+header a:hover {
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: transparent !important;
+  padding: 0;
+}
+
+footer {
+  /* padding: 20px;
+  padding-top: 0; */
+  color: #ffffff;
+  background-color: darkgray;
+  text-align: center;
+  display: block;
+  bottom: 0;
+}
+
+footer p {
+  font-size: 15px;
+  background-color: lightslategray;
+}
+
+.navbar-css {
+  box-shadow: 0 5px 10px grey;
+}
+
+img {
+  border: 0;
+  height: 70px;
+  /* margin-left: 30px;
+    margin-top: 20px */
+}
+
+#bg-text {
+  min-height: 400px;
+  background-image: url("../img/demo.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto !important;
+  text-align: center;
+  color: #ffffff;
+}
+
+#bg-text h1 {
+  margin-top: 100px;
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+
+#bg-text p {
+  font-size: 20px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+.general-nav {
+  background-color: bisque;
+  font-family: cursive;
+  font-weight: bold;
+}
+
+.logo {
+  height: 50px;
+  width: 80px;
+}
+.nav-menu {
+  margin-left: 12px;
+}
+
+.footer-copyrights {
+  background-color: gray;
+}
+
+/* Trades html */
+.card {
+  box-shadow: 0 0 10px 0 rgba(100, 100, 100, 0.26);
+  
+}
+
+
+form {
+    text-align: center;
+}
+
+.img-fluid{
+    min-height: 150px;
+    max-height: 150px;
+}
+.traderow{
+    margin: 0 !important;
+}
